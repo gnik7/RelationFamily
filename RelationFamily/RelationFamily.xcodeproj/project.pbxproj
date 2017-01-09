@@ -19,7 +19,7 @@
 		DB3CBDCF1E238999002BCED1 /* AdMobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3CBDCE1E238999002BCED1 /* AdMobView.swift */; };
 		DB3CBDD11E2389A2002BCED1 /* AdMobView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB3CBDD01E2389A2002BCED1 /* AdMobView.xib */; };
 		DB3CBDD51E23982A002BCED1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB3CBDD41E23982A002BCED1 /* GoogleService-Info.plist */; };
-		DB3CBDD71E23A40D002BCED1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3CBDD61E23A40D002BCED1 /* StoreKit.framework */; };
+		DB3CBDE11E23BD6D002BCED1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3CBDE01E23BD6D002BCED1 /* StoreKit.framework */; };
 		DB9BC7BA1E210E61000D9F5B /* XSLDataSourceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BC7B91E210E61000D9F5B /* XSLDataSourceManger.swift */; };
 		DBA82DB51E211AB8007663C8 /* Relationship_Chart.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBA82DB41E211AB8007663C8 /* Relationship_Chart.csv */; };
 		DBA82DB71E21216E007663C8 /* Relationship_Chart_Simplification.csv in Resources */ = {isa = PBXBuildFile; fileRef = DBA82DB61E21216E007663C8 /* Relationship_Chart_Simplification.csv */; };
@@ -54,7 +54,7 @@
 		DB3CBDCE1E238999002BCED1 /* AdMobView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdMobView.swift; sourceTree = "<group>"; };
 		DB3CBDD01E2389A2002BCED1 /* AdMobView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdMobView.xib; sourceTree = "<group>"; };
 		DB3CBDD41E23982A002BCED1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		DB3CBDD61E23A40D002BCED1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DB3CBDE01E23BD6D002BCED1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		DB9BC7B91E210E61000D9F5B /* XSLDataSourceManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSLDataSourceManger.swift; sourceTree = "<group>"; };
 		DB9BC7BB1E210F44000D9F5B /* XlsxReaderWriter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XlsxReaderWriter.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/RelationFamily-cvxdmqphkvqsikalhtpvdsvtbfem/Build/Products/Debug-iphonesimulator/XlsxReaderWriter/XlsxReaderWriter.framework"; sourceTree = "<group>"; };
 		DB9BC7BD1E210F4B000D9F5B /* SSZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSZipArchive.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/RelationFamily-cvxdmqphkvqsikalhtpvdsvtbfem/Build/Products/Debug-iphonesimulator/SSZipArchive/SSZipArchive.framework"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D2ED1248D1C1062E7B79D7 /* Pods_RelationFamily.framework in Frameworks */,
-				DB3CBDD71E23A40D002BCED1 /* StoreKit.framework in Frameworks */,
+				DB3CBDE11E23BD6D002BCED1 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 		F84D2D96266F48644C137F4C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DB3CBDD61E23A40D002BCED1 /* StoreKit.framework */,
+				DB3CBDE01E23BD6D002BCED1 /* StoreKit.framework */,
 				DB9BC7BF1E210F4E000D9F5B /* XMLDictionary.framework */,
 				DB9BC7BD1E210F4B000D9F5B /* SSZipArchive.framework */,
 				DB9BC7BB1E210F44000D9F5B /* XlsxReaderWriter.framework */,

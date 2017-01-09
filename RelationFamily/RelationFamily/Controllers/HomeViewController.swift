@@ -9,7 +9,8 @@
 import UIKit
 import StoreKit
 
-let productIDApp = "com.rwerelated.removeads"
+let productIDApp = "com.jack.rwerelated.removeads"
+
 
 class HomeViewController: BaseViewController {
     
