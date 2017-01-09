@@ -1,0 +1,16 @@
+Relationship;Father;Mother;Brother;Sister;Uncle;Son;Daughter;Grandfather;Grandmother;Aunt;First Cousin;Nephew;Niece;Grandson;Granddaughter;Me;Second Cousin;First Cousin Once Removed;Third Cousin;First Cousin Twice Removed
+Father;Grandfather;Grandfather;Father;Father;Grandfather;Husband;Husband;Great Grandfather;Great Grandfather;Grandfather;Uncle;Brother;Brother;Son;Son;Father;;;;
+Mother;Grandmother;Grandmother;Mother;Mother;Grandmother;Wife;Wife;Great Grandmother;Great Grandmother;Grandmother;Aunt;Sister;Sister;Daughter;Daughter;Mother;;;;
+Brother;Uncle;Uncle;Brother;Brother;Uncle;Son;Son;Granduncle;Granduncle;Uncle;First Cousin;Nephew;Nephew;Grandson;Grandson;Brother;;;;
+Sister;Aunt;Aunt;Sister;Sister;Aunt;Daughter;Daughter;Grandaunt;Grandaunt;Aunt;First Cousin;Niece;Niece;Granddaughter;Granddaughter;Sister;;;;
+Uncle;Great Uncle;Great Uncle;Uncle;Uncle;Grand Uncle;Brother;Brother;Great Granduncle;Great Granduncle;Grand Uncle;Uncle;Brother;Brother;Son;Son;Uncle;;;;
+Son;Brother;Brother;Nephew;Nephew;First Cousin;Grandson;Grandson;Uncle;Uncle;First Cousin;First Cousin Once Removed;Grandnephew;Grandnephew;Great Grandson;Great Grandson;Son;;;;
+Daughter;Sister;Sister;Niece;Niece;First Cousin;Granddaughter;Granddaughter;Aunt;Aunt;First Cousin;First Cousin Once Removed;Grandniece;Grandniece;Great Granddauhgter;Great Granddauhgter;Daughter;;;;
+Grandfather;Great Grandfather;Great Grandfather;Grandfather;Grandfather;Great Grandfather;Father;Father;Great Great Grandfather;Great Great Grandfather;Great Grandfather;Grandfather;Father;Father;Husband;Husband;Grandfather;;;;
+Grandmother;Great Grandmohter;Great Grandmohter;Grandmother;Grandmother;Great Grandmother;Mother;Mother;Great Great Grandmother;Great Great Grandmother;Great Grandmother;Grandmother;Mother;Mother;Wife;Wife;Grandmother;;;;
+Aunt;Great Aunt;Great Aunt;Aunt;Aunt;Great Aunt;Sister;Sister;Great Grandaunt;Great Grandaunt;Great Aunt;Aunt;Sister;Sister;N/A;N/A;Aunt;;;;
+First Cousin;First Cousin Once Removed;First Cousin Once Removed;First Cousin;First Cousin;First Cousin Once Removed;Nephew;Niece;First Cousin Twice Removed;First Cousin Twice Removed;First Cousin Once Removed;First Cousin;Nephew;Niece;Grandson;Grandson;First Cousin;;;;
+Nephew;First Cousin;First Cousin;Newphew;Newphew;First Cousin;Grandson;Grandson;First Cousin Once Removed;First Cousin Once Removed;First Cousin;First Cousin Once Removed;Grandnephew;Grandnephew;Great Grandson;Great Grandson;Nephew;;;;
+Niece;First Cousin;First Cousin;Niece;Niece;First Cousin;Granddaughter;Granddaughter;First Cousin Once Removed;First Cousin Once Removed;First Cousin;First Cousin Once Removed;Grandniece;Grandniece;Grand Grandnephew;Grand Grandnephew;Niece;;;;
+Grandson;Nephew;Nephew;Grand Nephew;Grand Nephew;Nephew;Great Grandson;Great Grandson;Cousin;Cousin;Nephew;First Cousin Twice Removed;Great Grand Nephew;Great Grand Nephew;Great Great Grandson;Great Great Grandson;Grandson;;;;
+Graddaughter;Niece;Niece;Grand Niece;Grand Niece;Niece;Great Granddaughter;Great Granddaughter;Cousin;Cousin;Niece;First Cousin Twice Removed;Great Grand Niece;Great Grand Niece;Great Great Granddaughter;Great Great Granddaughter;Grandaughter;;;;

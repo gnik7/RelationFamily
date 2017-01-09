@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'RelationFamily' do
+    
+    pod 'CSV.swift'
+    pod 'DropDown'
+    pod 'Firebase/Core'
+    pod 'Firebase/AdMob'
+    
+end

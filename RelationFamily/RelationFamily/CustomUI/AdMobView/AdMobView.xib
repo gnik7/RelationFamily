@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SanFranciscoDisplay-Bold.otf">
+            <string>SanFranciscoDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AdMobView" customModule="RelationFamily" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DT5-pT-Fqy" customClass="GADBannerView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chx-BD-c18">
+                    <rect key="frame" x="10" y="20" width="45" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="45" id="v5I-P2-B1j"/>
+                        <constraint firstAttribute="width" secondItem="chx-BD-c18" secondAttribute="height" multiplier="1:1" id="wpz-vD-XWt"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="close_button_main_screen"/>
+                    <connections>
+                        <action selector="closeButtonPressedWithSender:" destination="iN0-l3-epB" eventType="touchUpInside" id="jev-5K-msa"/>
+                    </connections>
+                </button>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XF6-Xq-VUT">
+                    <rect key="frame" x="20" y="597" width="335" height="50"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="W5s-FO-CLY"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SanFranciscoDisplay-Bold" family="San Francisco Display" pointSize="18"/>
+                    <state key="normal" title="Hide forever">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="inappButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="T7k-Rq-xyT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="XF6-Xq-VUT" secondAttribute="trailing" constant="20" id="98g-jb-4g3"/>
+                <constraint firstAttribute="trailing" secondItem="DT5-pT-Fqy" secondAttribute="trailing" id="Iz8-sa-CB4"/>
+                <constraint firstItem="XF6-Xq-VUT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="K91-Oj-Ons"/>
+                <constraint firstItem="chx-BD-c18" firstAttribute="top" secondItem="DT5-pT-Fqy" secondAttribute="top" constant="20" id="Zsf-f5-Toz"/>
+                <constraint firstItem="DT5-pT-Fqy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="hOA-6I-EY5"/>
+                <constraint firstAttribute="bottom" secondItem="DT5-pT-Fqy" secondAttribute="bottom" id="m0c-2j-USD"/>
+                <constraint firstItem="chx-BD-c18" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="scg-6Q-4ZR"/>
+                <constraint firstItem="DT5-pT-Fqy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="tS9-OS-k3b"/>
+                <constraint firstAttribute="bottom" secondItem="XF6-Xq-VUT" secondAttribute="bottom" constant="20" id="ue3-Hv-wna"/>
+            </constraints>
+            <connections>
+                <outlet property="banerView" destination="DT5-pT-Fqy" id="tLM-rm-2N1"/>
+                <outlet property="hideForeverButton" destination="XF6-Xq-VUT" id="ZtM-ch-AVH"/>
+            </connections>
+            <point key="canvasLocation" x="78.5" y="88.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close_button_main_screen" width="43" height="43"/>
+    </resources>
+</document>
