@@ -42,7 +42,10 @@ class MainLogicManager {
     
     func convertPossibilitiesBase(x: String, y:String, name1: String, name2: String) ->String {
         // x - column row - y
-        guard let xCell = possibilities?[x], let yCell = possibilities?[y] else {
+        let newX = x.trimmingCharacters(in: .whitespacesAndNewlines)
+        let newY = y.trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        guard let xCell = possibilities?[newX], let yCell = possibilities?[newY] else {
             return ""
         }
         

@@ -36,14 +36,12 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         setupViews()
     }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        setupInApp()
         yPositionBaseView = user1View.frame.size.height
     }
     
@@ -137,6 +135,7 @@ class HomeViewController: BaseViewController {
     }
     
     @IBAction func resultButtonPressed(_ sender: UIButton) {
+        setupInApp()
         mainLogic()
     }
     
@@ -179,6 +178,7 @@ class HomeViewController: BaseViewController {
         let rel2 = logic.parseUser(p1: relation2)
         
         let fullString = logic.convertPossibilitiesBase(x: rel1, y: rel2, name1: user1.name!, name2: user2.name!)
+        
         Alert.showAlert(controller: self, title: AlertTitle.TitleCommon.rawValue, message: fullString, action: {
             
             self.userView1?.clearFields()
