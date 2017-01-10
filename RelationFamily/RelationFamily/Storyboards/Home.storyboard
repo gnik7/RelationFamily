@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -14,6 +13,9 @@
         <array key="SanFranciscoDisplay-Bold.otf">
             <string>SanFranciscoDisplay-Bold</string>
         </array>
+        <array key="SanFranciscoDisplay-Regular.otf">
+            <string>SanFranciscoDisplay-Regular</string>
+        </array>
     </customFonts>
     <scenes>
         <!--Navigation Controller-->
@@ -21,7 +23,7 @@
             <objects>
                 <navigationController navigationBarHidden="YES" id="1AH-R0-38e" sceneMemberID="viewController">
                     <nil key="simulatedTopBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="9A1-cm-0Vj">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="9A1-cm-0Vj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -210,19 +212,17 @@
                                     <constraint firstAttribute="bottom" secondItem="bY3-hD-kK1" secondAttribute="bottom" constant="10" id="j0d-Tc-bt2"/>
                                 </constraints>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kaG-cE-Zoi">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kaG-cE-Zoi">
                                 <rect key="frame" x="15" y="85" width="345" height="562"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, conceptam omittantur usu te. Pro vitae causae et, est dicam regione nominavi ut. Vix vide officiis instructior ad. Eum id alii meliore, ei sea scaevola constituam. Omnes minimum id per, vix et harum detracto. Hinc tation tempor qui te, ut pro meis feugiat.
+                                <string key="text">Step 1: Find a relative that you both share.
 
-At est quas iriure placerat, mutat veritus atomorum mel an. Vis labore scribentur concludaturque id, te erant partiendo sed. Diam utinam postea ei vis, et eam doming causae. Ei qui quas tractatos delicatissimi, id appetere ponderum sensibus usu.
+Step 2: Each person enters their name and relation to the common relative. (Ex: Grandfather, Grandmother, Father’s Brother etc.)
 
-Ne per perpetua accusamus scribentur, vim et fuisset sensibus. Ubique indoctum quo et, an iisque ocurreret ius, ei est justo singulis. Vis ut minimum accusamus rationibus, quot doctus expetenda vim te. Ei qui aliquam dissentiunt, cu tractatos persecuti incorrupte eam.
+Step 3: Ensure all Information is correct and press the “How R We Related” button to see the result!
 
-Vix te dolore reformidans definitiones, labore ceteros platonem eum ne. Eius dignissim assueverit eu vix, usu quidam argumentum te. An vix munere bonorum alienum. Pertinax maluisset consetetur at pri, nec id disputando contentiones. Ut eruditi placerat referrentur sea. At mel quas porro hendrerit.
-
-Omnium persequeris ut ius, eos disputando referrentur in, tale paulo facete sea ea. Ad molestie cotidieque vel, vim ubique deserunt salutatus an. Case saepe scribentur id ius. An vis odio democritum incorrupte.</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+Enjoy!</string>
+                                <fontDescription key="fontDescription" name="SanFranciscoDisplay-Regular" family="San Francisco Display" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
